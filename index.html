@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>conditional statement</title>
+        <link href="./css/style.css" rel="stylesheet">
+        <style>
+            div#box1{
+                width: 400px;
+                height: 400px;
+                background-color: yellowgreen;
+                
+            }
+
+        </style>
+
+        
+
+         <script src="./js/script.js">
+
+        </script>
+    </head>
+    <body>
+        <div id="box">
+
+        </div>
+        <div id="box1"></div>
+        <div class="box" style="width: 200px; height: 200px; background-color: blueviolet;">
+
+        </div>
+        
+
+        <script>
+            var time=window.prompt("enter the time");    //taking user input
+
+            time=parseInt(time);
+
+            if( time>=6 && time<=12)
+            {
+                window.alert('good morning');
+            } else if(time>12 && time<=16 )
+            {
+                window.alert('good afternoon');
+            } else if(time>16 && time<=20)
+            {
+                window.alert('good evening');
+            }
+            else ( time>20)
+            {
+                window.alert('good night');
+            }
+            
+
+        </script>
+    </body>
+</html>
